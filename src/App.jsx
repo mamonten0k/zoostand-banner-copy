@@ -25,8 +25,8 @@ export default function App() {
       <div className="main">
         <div className="code">
           <div className="code-container">
-            <CodePreview />
-            <Counter />
+            {/* <CodePreview /> */}
+            {/* <Counter /> */}
           </div>
         </div>
         <Details />

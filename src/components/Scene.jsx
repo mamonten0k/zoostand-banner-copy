@@ -23,7 +23,7 @@ function Experience() {
   const [temp] = useState(() => new Vector3())
   const layers = [
     { texture: textures[0], x: 0, y: 0, z: 0, factor: 0.005, scale: scaleW },
-    // { texture: textures[1], x: 0, y: 0, z: 10, factor: 0.005, scale: scaleW },
+    { texture: textures[1], x: 0, y: 0, z: 10, factor: 0.005, scale: scaleW },
     { texture: textures[2], x: 0, y: 0, z: 15, scale: scaleW },
     { texture: textures[3], x: 0, y: 10, z: 20, scaleFactor: 0.82, scale: scaleN },
     { texture: textures[4], x: 0, y: 0, z: 40, factor: 0.03, scaleFactor: 1, wiggle: 0.6, scale: scaleW },
